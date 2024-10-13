@@ -1,5 +1,5 @@
 <script setup>
-import Book from './components/book.vue'
+import Book from './components/Book.vue'
 
 import {ref, shallowRef, triggerRef, reactive, computed} from 'vue'
 
