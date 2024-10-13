@@ -12,6 +12,6 @@ export default defineConfig({
     }
   },
   base: process.env.NODE_ENV === 'production'
-  ? 'https://github.com/Aditya-dom/orderbook'
+  ? '//orderbook//'
   : '/'
 })
