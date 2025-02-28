@@ -64,11 +64,11 @@ function update_plot(trade_price) {
     :span="state.span"
     @trade="update_plot"></Book>
     <div class="button_bar">
-      <div class="button-enclose"><button class='button-hit' @click="$refs.book.hit(true)">Swap</button></div>
-      <div class="button-enclose"><button class='button-lift' @click="$refs.book.lift(true)">Limit</button></div>
+      <div class="button-enclose"><button class='button-hit' @click="$refs.book.hit(true)">Hit</button></div>
+      <div class="button-enclose"><button class='button-lift' @click="$refs.book.lift(true)">Lift</button></div>
       <div class="button-enclose"><button class='button-reset' @click="reset">Reset</button></div>
-      <div class="button-enclose"><button class='button-mkt-hit' @click="$refs.book.hit(false)">Buy</button></div>
-      <div class="button-enclose"><button class='button-mkt-lift' @click="$refs.book.lift(false)">Send</button></div>
+      <div class="button-enclose"><button class='button-mkt-hit' @click="$refs.book.hit(false)">MktHit</button></div>
+      <div class="button-enclose"><button class='button-mkt-lift' @click="$refs.book.lift(false)">MktLift</button></div>
     </div>
   </div>
   <apexchart
